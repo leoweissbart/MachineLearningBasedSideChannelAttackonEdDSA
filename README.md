@@ -1,4 +1,6 @@
 # About
 This repository is associated with the paper **"Machine Learning-Based Side-Channel Attack on EdDSA"**.
 
-The file **databaseEdDSA.zip** contains the hdf5 database refered in the paper.
+The file **databaseEdDSA.h5.0\*** contains the segmented hdf5 database refered in the paper.
+To reconstruct the file you can run the following command in linux shell:
+>cat databaseEdDSA.h5.0* | zcat > Path/to/decompressed/file/redatasetEdDSA.h5
